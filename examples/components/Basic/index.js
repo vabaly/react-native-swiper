@@ -30,7 +30,7 @@ var styles = {
 }
 
 export default () => (
-  <Swiper style={styles.wrapper} showsButtons loop={false}>
+  <Swiper style={styles.wrapper} showsButtons loop={false} height={100}>
     <View testID="Hello" style={styles.slide1}>
       <Text style={styles.text}>Hello Swiper</Text>
     </View>

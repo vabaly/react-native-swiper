@@ -59,7 +59,7 @@ const DATA = [
     name: 'SwiperNumber'
   }
 ]
-
+// 某一个例子的导航，点击则调用导航方法跳转至相应的组件页面
 function Item({ title, navigation }) {
   return (
     <TouchableOpacity onPress={() => navigation.navigate(title)}>
@@ -69,7 +69,7 @@ function Item({ title, navigation }) {
     </TouchableOpacity>
   )
 }
-
+// 首页仅仅是列出每一个例子的导航
 const Home = ({ navigation }) => {
   return (
     <SafeAreaView style={{ flex: 1 }}>

@@ -161,7 +161,6 @@
 				A8CCE8BE1CFAF9D3C9A30B40 /* Pods-examplesTests.debug.xcconfig */,
 				D75E96F6BB25B7F4475E8247 /* Pods-examplesTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +307,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
